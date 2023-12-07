@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ContactUS</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="Contact.html" href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <H4>Get your results emailed straight to you!</H4>
+    <h5>Just enter your Email to get your results emailed to you!</h5>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="origin">Your Country:</label>
+          <input type="text" id="origin" name="origin" placeholder="Enter the origin country...">
+
+          <label for="result">The Country you wanted to change to:</label>
+          <input type="text" id="result" name="result" placeholder="Enter the country you are translating to..."
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="Ireland">Ireland</option>
+            <option value="England">England</option>
+            <option value="USA">USA</option>
+            <option value="South Africa">South Africa</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>
